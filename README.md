@@ -19,6 +19,7 @@ Rate: 3e-4
 Val loss: 0.5843
 Training data: ~1,000,000 kb ( 1 gb)
 Max tokens: 4.
+5 attention heads and transformer blocks.
 ```
 <img width="450" height="350" alt="изображение" src="https://github.com/user-attachments/assets/0468e78f-89da-4581-acf9-831facf84b0c" />
 
