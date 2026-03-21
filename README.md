@@ -10,24 +10,24 @@ Developed as a learning project to explore the capabilities of artificial intell
 
 _Latest:_
 
-**_DarkGPT v0.21_super_**
+**_DarkGPT v2.0 _super_**
 ```bash
-5.1 million params
-Steps: 16500
+8 million params
+Steps: 80,400
 Context length: 256
-Rate: 2e-4
-Conversational data: 65000 kb
-Other data: 2500 kb
-Total (training data): 67500 kb.
-
-# Despite having less params and training data then v0.2, training data is
-# significantly more efficeint data used for training, and has more steps, meaning data is
-# being utilised more efficiently, producing much bette responses.
-#Updated, more beutiful and easier to navigate tkinter UI.
+Learning rate: 3e-4
+Val loss: 0.5843
+Training data: ~1,000,000 kb ( 1 gb)
+Max tokens: 4.
 ```
-<img width="450" height="350" alt="Снимок экрана 2026-03-18 091721" src="https://github.com/user-attachments/assets/a8817eb4-6b42-42ca-b123-56d79a9ea1c8" />
+<img width="450" height="350" alt="изображение" src="https://github.com/user-attachments/assets/0468e78f-89da-4581-acf9-831facf84b0c" />
+
 
 Other releases:
+
+**_DarkGPT v0.21_super_**
+
+**_DarkGPT v0.2_super_**
 
 **_DarkGPT v0.2_**
 
@@ -40,9 +40,10 @@ Other releases:
 DarkGPT is a decoder only transformer (the same architecture behind ChatGPT, Claude, Gemini etc..) Every component is written by hand. It is not a remake of any existing model.
 
 **Architecture**
-- 5.1M / 6.3M parameters (Depending on model)
-- 4 transformer blocks, 5 attention heads
+- 8M parameters.
+- 5 transformer blocks, 5 attention heads
 - 256 token context window
+- 4 max tokens.
 
 ---
 
