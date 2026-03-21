@@ -3,12 +3,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class ModelConfig:
-    vocab_size:    int = 256
-    context_len:   int = 256
-    embed_dim:     int = 288    # was 256, ~1.6x params
-    num_heads:     int = 4      # keep the same
-    num_layers:    int = 5      # one extra layer
-    dropout:       float = 0.12
+    vocab_size:  int = 256
+    context_len: int = 256
+    embed_dim:   int = 300
+    num_heads:   int = 5
+    num_layers:  int = 5
+    dropout:     float = 0.12
 
 class AttentionHead(nn.Module):
     def __init__(self, cfg: ModelConfig, head_dim: int):
