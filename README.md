@@ -10,7 +10,7 @@ Developed as a learning project to explore the capabilities of artificial intell
 
 _Latest:_
 
-**_DarkGPT v2.0 _Super_**
+**_DarkGPT v2.0 Super_**
 ```bash
 8 million params
 Steps: 80,400
