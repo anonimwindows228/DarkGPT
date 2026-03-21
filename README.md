@@ -105,4 +105,4 @@ NOTICE!! This will be fixed in the next releases!!
 
 ## Releases
 
-**Current version:** DarkGPT v0.2_super
+**Current version:** DarkGPT v2.0_super
