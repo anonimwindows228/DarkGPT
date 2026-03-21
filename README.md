@@ -10,12 +10,12 @@ Developed as a learning project to explore the capabilities of artificial intell
 
 _Latest:_
 
-**_DarkGPT v2.0 _super_**
+**_DarkGPT v2.0 _Super_**
 ```bash
 8 million params
 Steps: 80,400
 Context length: 256
-Learning rate: 3e-4
+Rate: 3e-4
 Val loss: 0.5843
 Training data: ~1,000,000 kb ( 1 gb)
 Max tokens: 4.
