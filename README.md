@@ -1,4 +1,4 @@
-# DarkGPT
+# Obsidian
 
 A GPT style transformer language model with no limitations built from scratch in Python using PyTorch. Runs entirely locally; no API, no internet, no restrictions.
 Developed as a learning project to explore the capabilities of artificial intellegence and how it works.
@@ -10,7 +10,7 @@ Developed as a learning project to explore the capabilities of artificial intell
 
 _Latest:_
 
-**_DarkGPT v2.0 Super_**
+**_Obsidian v2.0 Super_**
 ```bash
 8 million params
 Steps: 80,400
@@ -26,13 +26,13 @@ Max tokens: 4.
 
 Other releases:
 
-**_DarkGPT v0.21_super_**
+**_Obsidian v0.21_super_**
 
-**_DarkGPT v0.2_super_**
+**_Obsidian v0.2_super_**
 
-**_DarkGPT v0.2_**
+**_Obsidian v0.2_**
 
-**_DarkGPT v0.1_alpha_**
+**_Obsidian v0.1_alpha_**
 
 ---
 
@@ -41,7 +41,7 @@ Other releases:
 DarkGPT is a decoder only transformer (the same architecture behind ChatGPT, Claude, Gemini etc..) Every component is written by hand. It is not a remake of any existing model.
 
 **Architecture**
-- 8M parameters.
+- 8.1M parameters.
 - 5 transformer blocks, 5 attention heads
 - 256 token context window
 - 4 max tokens.
@@ -78,7 +78,7 @@ python chat.py
 ## Project structure
 
 ```
-dark_gpt/
+obsidian/
 ├── model.py                 # The model
 ├── train.py                 # Training loop and checkpointing
 ├── chat.py                  # Tkinter chat interface
@@ -105,4 +105,4 @@ NOTICE!! This will be fixed in the next releases!!
 
 ## Releases
 
-**Current version:** DarkGPT v2.0_super
+**Current version:** Obsidian v2.0_super
