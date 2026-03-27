@@ -38,7 +38,7 @@ Other releases:
 
 ## What it is
 
-DarkGPT is a decoder only transformer (the same architecture behind ChatGPT, Claude, Gemini etc..) Every component is written by hand. It is not a remake of any existing model.
+Obsidian is a decoder only transformer (the same architecture behind ChatGPT, Claude, Gemini etc..) Every component is written by hand. It is not a remake of any existing model.
 
 **Architecture**
 - 8.1M parameters.
