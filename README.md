@@ -3,6 +3,10 @@
 A GPT style transformer language model with no limitations built from scratch in Python using PyTorch. Runs entirely locally; no API, no internet, no restrictions.
 Developed as a learning project to explore the capabilities of artificial intellegence and how it works.
 
+Previously: DarkGPT
+
+Please read: DarkGPT is completely functional, does not really require any architecture updates. The only way it can be sufficently improved, is by increasing trasining data, time and parameters, which all require good hardware, however with my current hardware it is not possible for me to do so. Therefore, please note: New and improved versions with more data are not gruaranteed, if you would like, you can download Obsidian and train it on your own data. Thank you very much!!
+
 **IMPORTANT!!** *Check releases for lastest version! Model training data (wont't run without it!!) is also there!!*
 
 ---
